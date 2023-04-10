@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .5s;
+    font-family: cursive;
+    color: white;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.542),rgba(0,0,0, 0.5)), url(sbg.jpg) no-repeat center/cover;
+    overflow: hidden;
+}
+header{
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    background-color:  rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: transparent;
+}
+header button a{
+    color: black;
+    font-size: 15px;
+}
+header h1{
+    border-radius: 20px;
+    padding: 50px;
+ 
+}
+.hymn, .uni{
+    font-size: 18px;
+    margin-left: 40px;
+    width: 80%;
+    background-color:  rgba(0,0,0,.5);   
+     border-radius: 20px;
+    padding: 50px;
+}
+.cont{
+    display: flex;
+    width: 100vw;
+    MARGIN-TOP: 50px;
+    justify-content: center;
+}
+.misvis{
+    width: fit-content;
+}
+.uni2{
+    margin-top: 20px
+}
+

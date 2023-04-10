@@ -1,0 +1,69 @@
+@media  screen and (max-width: 600px){
+    *{
+        font-size: 13px
+    }
+    .namecont{
+        width: 100px;
+        padding-top: 50px;
+        animation: nchange 30s linear infinite;
+    }
+    .namecont button{
+        width: 90%;
+        height: fit-content;
+        text-align: start;
+        padding: 5px;
+        font-size: small;
+
+    }
+    @keyframes nchange{
+        0%{
+            background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0))
+        }
+        17%{
+            background: linear-gradient( rgb(226, 33, 33, .5), rgba(0,0,0))
+        }
+        34%{
+            background: linear-gradient( rgb(255, 250, 250, .5), rgba(0,0,0))
+        }
+        51%{
+            background: linear-gradient( rgb(216, 118, 37, .5), rgba(0,0,0))
+        }
+        68%{
+            background: linear-gradient( rgba(70, 33, 2, 0.5), rgba(0,0,0))
+        }
+        85%{
+            background: linear-gradient( rgba(49, 48, 48, 0.5), rgba(0,0,0))
+        }
+        100%{
+            background: linear-gradient( rgb(255, 224, 177, .5), rgba(0,0,0))
+        }
+    }
+    .bgCont{
+        float: right;
+        width: 85%;
+        animation: change 30s linear infinite;
+    }
+    @keyframes change{
+        0%{
+            background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0)), url(m7.jpg) no-repeat center/cover;
+        }
+        17%{
+            background: linear-gradient( rgb(226, 33, 33, .2), rgba(0,0,0)), url(m1.jpg) no-repeat center/cover;
+        }
+        34%{
+            background: linear-gradient( rgb(255, 250, 250, .2), rgba(0,0,0)), url(m2.png) no-repeat center/cover;
+        }
+        51%{
+            background: linear-gradient( rgb(216, 118, 37, .2), rgba(0,0,0)), url(m3.jpg) no-repeat center/cover;
+        }
+        68%{
+            background: linear-gradient( rgba(70, 33, 2, 0.2), rgba(0,0,0)), url(m4.jpg) no-repeat center/cover;
+        }
+        85%{
+            background: linear-gradient( rgba(49, 48, 48, 0.3), rgba(0,0,0)), url(m5.jpg) no-repeat center/cover;
+        }
+        100%{
+            background: linear-gradient( rgb(255, 224, 177, .2), rgba(0,0,0)), url(m6.jpg) no-repeat center/cover;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px){
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        overflow-y: scroll;
+        background: linear-gradient(rgba(0,0,0,.542),rgba(0,0,0, 0.5)), url(sbg.jpg) repeat-y center/cover;
+
+    }
+    header{
+        padding: 0;
+    }
+    header h1{
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+    header button{
+        margin-left: 10px
+    }
+    .cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hymn, .uni{
+        margin: 20px 0
+    }
+    .misvis{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+}
