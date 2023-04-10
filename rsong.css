@@ -60,6 +60,7 @@
     .cont{
         width: 80%;
         margin-left: 10%;
+       position: relative;
     }
     .song1 div span{
         font-size: 12px;
@@ -70,4 +71,10 @@
     .contl{
         padding-bottom: 50px
     }
+
+
+
+   .cont audio{
+      width: 100%;
+      }
 }
