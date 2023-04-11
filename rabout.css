@@ -43,7 +43,9 @@
       .names div{
         display: flex;
         flex-direction: column;
-        gap: 20px
+        gap: 20px;
+          width: 100%;
+          align-items: center;
       }
       header button h3 a:before{
         border-bottom: none
