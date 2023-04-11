@@ -45,7 +45,7 @@
         width: 50%;
         justify-content: center;
         position: absolute;
-       left: -10%;
+       left: -100%;
        z-index: 20;
     }
     header h1{
